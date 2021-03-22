@@ -1,0 +1,68 @@
+.title {
+	-fx-text-alignment: center;
+	-fx-alignment: center;
+	-fx-font-size: 20;
+	-fx-font-weight: bold;
+	-fx-label-padding: 20,50,20,50;
+}
+#heading{
+	-fx-label-padding: 0,0,200,0;
+}
+.button {
+	-fx-label-padding: 5,10;	
+}
+.button-hornet { 
+	-fx-text-fill: transparent;
+}
+.button-hornet:selected {
+	-fx-text-fill: black;
+}
+.button-hornet:disabled{
+	-fx-background-color:black;
+}
+
+.button-level{
+	
+	-fx-padding: 10;	
+	-fx-border-radius:100;
+	
+}
+.button-level:not(:selected) {	
+	-fx-background-color:transparent;
+}
+/* 
+.image:focused {
+	dropshadow:
+}
+*/
+.label {
+	-fx-text-alignment: center;
+	-fx-alignment: center;
+	-fx-label-padding: 10;
+}
+.pane{
+	-fx-hgap: 100;
+	-fx-vgap: 100;
+	-fx-alignment: center;
+	-fx-padding: 20;
+}
+.timer{
+	-fx-label-padding: 5;
+	-fx-font-size: 40;
+	-fx-text-fill: white;
+}
+.tooltip{
+	-fx-font-size: 12;
+}
+/* Background Image Credit:
+ * https://www.flickr.com/photos/37180297@N08/29868172378
+ */
+#game-view .toggle-button{
+	-fx-text-fill: white;
+}
+#general-view .title {
+	-fx-text-fill: white;
+}
+#general-view .desc {
+	-fx-text-fill: white;
+}
